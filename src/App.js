@@ -192,9 +192,9 @@ onRouteChange =(route) => {
   render() {
     return (
       <div className="App">
-        <Particles className='particles'
-      id="tsparticles"
-      options={particlesOptions}
+      //   <Particles className='particles'
+      // id="tsparticles"
+      // options={particlesOptions}
     />
         <Navigation isSignedIn= {this.state.isSignedIn} onRouteChange={this.onRouteChange}/>
         {this.state.route==='home'
